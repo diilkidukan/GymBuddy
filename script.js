@@ -1,3 +1,16 @@
+// ===============================
+// SUPABASE CONNECTION
+// ===============================
+
+const SUPABASE_URL = "https://qojjciucyunckzwfzylv.supabase.co";
+const SUPABASE_KEY = "sb_publishable_3JKO6Ms3nEmrcT1U0QZnGA_Az5cKRgo";
+
+const supabaseClient = window.supabase.createClient(
+    SUPABASE_URL,
+    SUPABASE_KEY
+);
+
+console.log("GymBuddy Supabase connected 🚀");
 /* =========================================================
    GYMBUDDY - SCRIPT.JS
    STEP 5: Workout Tracker + Rest Timer + Workout Alarm
