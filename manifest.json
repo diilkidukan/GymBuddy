@@ -1,0 +1,11 @@
+{
+  "name": "GymBuddy - Workout Tracker",
+  "short_name": "GymBuddy",
+  "description": "Track workouts, sets, weight, progress and rest timers with GymBuddy.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0d12",
+  "theme_color": "#7c3aed",
+  "orientation": "portrait",
+  "icons": []
+}
